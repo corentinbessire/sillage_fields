@@ -1,0 +1,30 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/11.x/core/lib/Drupal/Core/Component/metadata.schema.json'
+name: title
+status: stable
+description: 'Title component with configurable style and size options'
+props:
+  type: object
+  properties:
+    text:
+      type: string
+      title: Text
+      description: The text to display as a title.
+      examples: []
+    style:
+      type: string
+      title: Style
+      description: 'The visual style of the Title.'
+      examples: ['primary', 'secondary', 'accent']
+    size:
+      type: string
+      title: Size
+      description: 'The size of the Title.'
+      examples: ['h1','h2','h3','h4','h5']
+    attributes:
+      type: object
+      title: Attributes
+      description: 'HTML attributes to add to the button.'
+      additionalProperties: true
+slots: {}
+libraryOverrides:
+  dependencies: []

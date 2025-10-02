@@ -1,0 +1,33 @@
+{#
+/**
+ * @file
+ * Title component template.
+ *
+ * Available variables:
+ * - text: The text content of the title.
+ * - style: The style of the title (primary, secondary, accent).
+ * - size: The size/heading level of the title (h1, h2, h3, h4, h5).
+ * - attributes: Any additional HTML attributes for the title element.
+ */
+#}
+
+{# Process attributes to add component classes #}
+{% set classes = [
+  'title',
+  'title--' ~ style|clean_class,
+  'title--size-' ~ size|clean_class,
+] %}
+
+{% if attributes is empty %}
+  {% set attributes = create_attribute() %}
+{% endif %}
+
+{% set attributes = attributes.addClass(classes) %}
+
+{# Determine the heading tag to use based on size #}
+{% set tag = size %}
+
+{# Render the heading with the appropriate tag and attributes #}
+<{{ tag }} {{ attributes }}>
+{{ text }}
+</{{ tag }}>

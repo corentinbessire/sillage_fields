@@ -1,0 +1,10 @@
+button_link_widget:
+  version: 1.x
+  css:
+    theme:
+      css/button-link-widget.css: {}
+title_link_widget:
+  version: 1.x
+  css:
+    theme:
+      css/title-field-widget.css: {}
