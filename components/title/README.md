@@ -10,7 +10,7 @@ You can use this component in your Twig templates or PHP render arrays:
 ### In Twig:
 
 ```twig
-{{ include('sillage_fields:title',{
+{{ include('lug_fields:title',{
   text: 'Your Title Text',
   style: 'primary',
   size: 'h2',
@@ -26,7 +26,7 @@ You can use this component in your Twig templates or PHP render arrays:
 ```php
 $build['title'] = [
   '#type' => 'component',
-  '#component' => 'sillage_fields:title',
+  '#component' => 'lug_fields:title',
   '#props' => [
     'text' => 'Your Title Text',
     'style' => 'primary',

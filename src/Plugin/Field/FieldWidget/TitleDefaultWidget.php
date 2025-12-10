@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\sillage_fields\Plugin\Field\FieldWidget;
+namespace Drupal\lug_fields\Plugin\Field\FieldWidget;
 
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Field\WidgetBase;
@@ -119,7 +119,7 @@ class TitleDefaultWidget extends WidgetBase {
     ];
 
     // Add custom CSS for the widget.
-    $element['#attached']['library'][] = 'sillage_fields/title_link_widget';
+    $element['#attached']['library'][] = 'lug_fields/title_link_widget';
 
     return $element;
   }

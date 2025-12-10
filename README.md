@@ -1,7 +1,7 @@
-# Sillage Fields Module
+# Lug Fields Module
 
 ## Description
-This module provides custom field types specifically designed to enhance functionality when used with the Sillage theme framework. It includes specialized field types for buttons, links, and enhanced title fields with additional display options.
+This module provides custom field types specifically designed to enhance functionality when used with the Lug theme framework. It includes specialized field types for buttons, links, and enhanced title fields with additional display options.
 
 ## Functionality
 - **Button Link Field**: Custom field type for creating styled button links
@@ -31,7 +31,7 @@ This module provides custom field types specifically designed to enhance functio
 
 ## Files Structure
 ```
-sillage_fields/
+lug_fields/
 ├── components/
 │   └── title/
 │       ├── README.md                      # Title component documentation
@@ -52,8 +52,8 @@ sillage_fields/
 │           └── FieldWidget/
 │               ├── ButtonLinkWidget.php       # Button link widget
 │               └── TitleDefaultWidget.php     # Title field widget
-└── sillage_fields.field_type_categories.yml  # Field categorization
+└── lug_fields.field_type_categories.yml  # Field categorization
 ```
 
 ## Usage
-These field types are available in the field management interface and can be added to any fieldable entity. They are specifically optimized for use with the Sillage theme framework but can be used with any theme.
+These field types are available in the field management interface and can be added to any fieldable entity. They are specifically optimized for use with the Lug theme framework but can be used with any theme.

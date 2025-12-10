@@ -1,8 +1,0 @@
-name: 'Sillage  - Fields'
-type: module
-description: 'Provides custom field types to allow more option with Sillage Theme.'
-package: 'Project Sillage'
-core_version_requirement: ^11.0
-dependencies:
-  - drupal:link
-  - drupal:field

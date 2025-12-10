@@ -1,0 +1,8 @@
+name: 'Lug  - Fields'
+type: module
+description: 'Provides custom field types to allow more option with Lug Theme.'
+package: 'Project Lug'
+core_version_requirement: ^11.0
+dependencies:
+  - drupal:link
+  - drupal:field

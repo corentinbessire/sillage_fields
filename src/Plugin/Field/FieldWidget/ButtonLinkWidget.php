@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\sillage_fields\Plugin\Field\FieldWidget;
+namespace Drupal\lug_fields\Plugin\Field\FieldWidget;
 
 use Drupal\link\Plugin\Field\FieldWidget\LinkWidget;
 use Drupal\Core\Field\FieldItemListInterface;
@@ -123,7 +123,7 @@ class ButtonLinkWidget extends LinkWidget {
     ];
 
     // Add custom CSS for the widget.
-    $element['#attached']['library'][] = 'sillage_fields/button_link_widget';
+    $element['#attached']['library'][] = 'lug_fields/button_link_widget';
 
     // Ensure attributes are preserved for options (if they exist)
     if (isset($element['options'])) {

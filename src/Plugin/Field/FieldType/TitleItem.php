@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\sillage_fields\Plugin\Field\FieldType;
+namespace Drupal\lug_fields\Plugin\Field\FieldType;
 
 use Drupal\Core\Field\FieldItemBase;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;

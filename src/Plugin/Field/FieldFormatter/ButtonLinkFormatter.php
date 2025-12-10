@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\sillage_fields\Plugin\Field\FieldFormatter;
+namespace Drupal\lug_fields\Plugin\Field\FieldFormatter;
 
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Field\FormatterBase;
@@ -99,7 +99,7 @@ class ButtonLinkFormatter extends FormatterBase implements ContainerFactoryPlugi
 
       $elements[$delta] = [
         '#type' => 'component',
-        '#component' => 'sillage_fields:button',
+        '#component' => 'lug_fields:button',
         '#props' => [
           'text' => $item->title ?? $url_string,
           'url' => $url,

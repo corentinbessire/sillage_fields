@@ -1,7 +1,0 @@
-# Field type categories for the Button Field module.
-# These categories are used to group field types in the UI.
-
-sillage:
-  label: 'Project Sillage'
-  description: 'Field types for project based on the Sillage theme'
-  weight: 0

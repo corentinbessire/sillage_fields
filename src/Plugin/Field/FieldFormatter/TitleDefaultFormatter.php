@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\sillage_fields\Plugin\Field\FieldFormatter;
+namespace Drupal\lug_fields\Plugin\Field\FieldFormatter;
 
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Field\FormatterBase;
@@ -34,7 +34,7 @@ class TitleDefaultFormatter extends FormatterBase {
 
       $elements[$delta] = [
         '#type' => 'component',
-        '#component' => 'sillage_fields:title',
+        '#component' => 'lug_fields:title',
         '#props' => [
           'text' => $item->value,
           'style' => $style,
